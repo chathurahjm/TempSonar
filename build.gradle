@@ -15,9 +15,8 @@ sonarqube {
     property "sonar.projectKey", "chathurahjm_TempSonar"
     property "sonar.organization", "inputmice"
     property "sonar.host.url", "https://sonarcloud.io"
-    property "sonar.sources", "."
-    property "sonar.exclusions", "**/*.java"
-    property "sonar.exclusions", "*.java"
+    property "sonar.sources", "./src/"
+    property "sonar.java.binaries", "bin"
   }
 }
 
